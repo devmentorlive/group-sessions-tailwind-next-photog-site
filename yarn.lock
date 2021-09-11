@@ -3279,6 +3279,11 @@
     "string-width" "^4.2.0"
     "strip-ansi" "^6.0.0"
 
+"tailwind-hamburgers@^1.1.1":
+  "integrity" "sha512-0w7oyswgVn85NsLjo6uECLH7r8D3jvKQGSSH9h0KqKmJgToyiuvQaYkEDMtDlQ46PX4XbtopYiilfwMXSZIsbA=="
+  "resolved" "https://registry.npmjs.org/tailwind-hamburgers/-/tailwind-hamburgers-1.1.1.tgz"
+  "version" "1.1.1"
+
 "tailwindcss@^2.2.4":
   "integrity" "sha512-OdBCPgazNNsknSP+JfrPzkay9aqKjhKtFhbhgxHgvEFdHy/GuRPo2SCJ4w1SFTN8H6FPI4m6qD/Jj20NWY1GkA=="
   "resolved" "https://registry.npmjs.org/tailwindcss/-/tailwindcss-2.2.4.tgz"
