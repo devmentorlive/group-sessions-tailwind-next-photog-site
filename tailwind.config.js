@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        serif: ["ff-more-web-pro"],
+        serif: ["hoefler-regular"],
+        sans: ["ff-more-web-pro"],
       },
       colors: {
         gray: {

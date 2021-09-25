@@ -4,12 +4,12 @@ import MainMenu from "./main-menu";
 export default function Header({}) {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   return (
-    <header>
-      <div className="hidden md:flex md:justify-center">
+    <header className="top-0 md:relative ">
+      <div className="hidden md:flex md:justify-center my-4">
         <MainMenu />
       </div>
 
-      <div className="relative">
+      <div className="relative z-50">
         <div className="md:hidden w-full flex flex-row-reverse mt-4 pr-4">
           <div
             className={`tham tham-e-squeeze tham-w-6 ${
@@ -24,7 +24,7 @@ export default function Header({}) {
         </div>
 
         {showMobileMenu && (
-          <div className="p-4 absolute bg-white w-full text-2xl">
+          <div className="p-4 absolute bg-white w-full text-2xl z-50">
             <MainMenu />
           </div>
         )}
