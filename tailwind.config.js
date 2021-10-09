@@ -7,6 +7,7 @@ module.exports = {
       fontFamily: {
         serif: ["hoefler-regular"],
         sans: ["ff-more-web-pro"],
+        cursive: ["cinque-donne-pro"],
       },
       colors: {
         gray: {
